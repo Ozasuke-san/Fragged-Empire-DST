@@ -1,0 +1,122 @@
+<html>
+<head>
+  <title>Fragged Empire DST</title>
+
+  <script type="text/javascript" src="devkit/javascripts/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="devkit/javascripts/jquery.jeditable-1.7.1.js"></script>
+  <script type="text/javascript" src="devkit/javascripts/namespace.js"></script>
+
+  <!-- This is where we do our magic. Take a look to get a better understanding of how to write javascript for your DST. -->
+  <script type="text/javascript" src="http://www.obsidianportal.com/javascripts/characters.js"></script>
+
+  <!-- Load the example data. Modify this file to make sample data for your chosen system. -->
+  <script type="text/javascript" src="devkit/example_data.js"></script>
+
+  <!-- Load the CSS for the DST, replace with your own! -->
+  <link media="screen" rel="stylesheet" type="text/css" href="FE_CS_DST.css">
+
+  <!-- Load the JS for the DST, replace with your own! -->
+  <script type="text/javascript" src="devkit/dynamic_sheets/minimal4e/0.1/sheet.js"></script>
+
+</head>
+<body>
+<table class="feCharacterSheet">
+  <tr>
+    <td>
+      <table class="attributesTable">
+        <tr class="statHeader">
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;ATTRIBUTES</td>
+          <td align=center>TOTAL</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;TRAITS</td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeName">Strength</td>
+                <td class="attributePips"><span class="lowerhexCB"><input type="checkbox" id="strCB1" /><label for="strCB1"></label></span><span class="upperhexCB"><input type="checkbox" id="strCB2" /><label for="strCB2"></label></span><span class="lowerhexCB"><input type="checkbox" id="strCB3" /><label for="strCB3"></label></span><span class="upperhexCB"><input type="checkbox" id="strCB4" /><label for="strCB4"></label></span><span class="lowerhexCB"><input type="checkbox" id="strCB5" /><label for="strCB5"></label></span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">2</td>
+          <td class="traitField">Massive</td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeName">Reflexes</td>
+                <td class="attributePips"><span class="lowerhexCB"><input type="checkbox" id="refCB1" /><label for="refCB1"></label></span><span class="upperhexCB"><input type="checkbox" id="refCB2" /><label for="refCB2"></label></span><span class="lowerhexCB"><input type="checkbox" id="refCB3" /><label for="refCB3"></label></span><span class="upperhexCB"><input type="checkbox" id="refCB4" /><label for="refCB4"></label></span><span class="lowerhexCB"><input type="checkbox" id="refCB5" /><label for="refCB5"></label></span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">5</td>
+          <td class="traitField"></td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeName">Movement</td>
+                <td class="attributePips"><span class="lowerhexCB"><input type="checkbox" id="movCB1" /><label for="movCB1"></label></span><span class="upperhexCB"><input type="checkbox" id="movCB2" /><label for="movCB2"></label></span><span class="lowerhexCB"><input type="checkbox" id="movCB3" /><label for="movCB3"></label></span><span class="upperhexCB"><input type="checkbox" id="movCB4" /><label for="movCB4"></label></span><span class="lowerhexCB"><input type="checkbox" id="movCB5" /><label for="movCB5"></label></span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">4</td>
+          <td class="traitField"></td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeName">Focus</td>
+                <td class="attributePips"><span class="lowerhexCB"><input type="checkbox" id="focCB1" /><label for="focCB1"></label></span><span class="upperhexCB"><input type="checkbox" id="focCB2" /><label for="focCB2"></label></span><span class="lowerhexCB"><input type="checkbox" id="focCB3" /><label for="focCB3"></label></span><span class="upperhexCB"><input type="checkbox" id="focCB4" /><label for="focCB4"></label></span><span class="lowerhexCB"><input type="checkbox" id="focCB5" /><label for="focCB5"></label></span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">3</td>
+          <td class="traitField"></td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeName">Intelligence</td>
+                <td class="attributePips"><span class="lowerhexCB"><input type="checkbox" id="intCB1" /><label for="intCB1"></label></span><span class="upperhexCB"><input type="checkbox" id="intCB2" /><label for="intCB2"></label></span><span class="lowerhexCB"><input type="checkbox" id="intCB3" /><label for="intCB3"></label></span><span class="upperhexCB"><input type="checkbox" id="intCB4" /><label for="intCB4"></label></span><span class="lowerhexCB"><input type="checkbox" id="intCB5" /><label for="intCB5"></label></span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">2</td>
+          <td class="traitField"></td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeName">Perception</td>
+                <td class="attributePips"><span class="lowerhexCB"><input type="checkbox" id="perCB1" /><label for="perCB1"></label></span><span class="upperhexCB"><input type="checkbox" id="perCB2" /><label for="perCB2"></label></span><span class="lowerhexCB"><input type="checkbox" id="perCB3" /><label for="perCB3"></label></span><span class="upperhexCB"><input type="checkbox" id="perCB4" /><label for="perCB4"></label></span><span class="lowerhexCB"><input type="checkbox" id="perCB5" /><label for="perCB5"></label></span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">2</td>
+          <td class="traitField"></td>
+        </tr>
+        <tr>
+          <td class="attributes">
+            <table>
+              <tr>
+                <td class="attributeFateName">Fate</td>
+                <td></td>
+              </tr>
+            </table>
+          </td>
+          <td class="hexStat">2</td>
+          <td class="traitField"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

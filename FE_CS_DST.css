@@ -1,0 +1,108 @@
+.feCharacterSheet {
+  font-family: "Arial",sans-serif;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.upperHexCB input[type=checkbox] + label {
+  background-image: url("images/hex pip upper off.png");
+  height: 26px;
+  width: 11px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  cursor: pointer;
+}
+
+.upperHexCB input[type=checkbox]:checked + label {
+  background-image: url("images/hex pip upper on.png");
+  height: 26px;
+  width: 11px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  cursor: pointer;
+}
+
+.lowerHexCB input[type=checkbox] + label {
+  background-image: url("images/hex pip lower off.png");
+  height: 26px;
+  width: 11px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  cursor: pointer;
+}
+
+.lowerHexCB input[type=checkbox]:checked + label {
+  background-image: url("images/hex pip lower on.png");
+  height: 26px;
+  width: 11px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  cursor: pointer;
+}
+
+.hexStat {
+  background-image: url("images/Hex Stat.jpg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 26px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hexStat:hover {
+  font-weight: bold;
+}
+
+.statHeader {
+  font-size: 9px;
+}
+
+table, tr, td {
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0px;
+}
+
+.attributesTable {
+  border-spacing: 5px;
+}
+
+.attributes {
+  background-image: url("images/Attribute Background.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 26px;
+  cursor: default;
+}
+
+.attributeName {
+  width: 142px;
+  color: white;
+  text-indent: 10px;
+  vertical-align: middle;
+}
+
+.attributePips {
+
+}
+
+.attributeFateName {
+  background-image: url("images/Attribute Fate Background.jpg");
+  background-repeat: no-repeat;
+  width: 154px;
+  height: 26px;
+  text-indent: 10px;
+  vertical-align: middle;
+}
+
+.traitField {
+  background-image: url("images/Attribute Trait Background.jpg");
+  background-repeat: no-repeat;
+  width: 198px;
+  height: 26px;
+  text-indent: 10px;
+  vertical-align: middle;
+  font-size: 12px;
+}
